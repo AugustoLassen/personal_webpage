@@ -1,9 +1,9 @@
 [build]
-  command = "hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  command = "hugo --gc --minify --buildFuture -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.136.5"
+  HUGO_VERSION = "0.145.0"  # Updated to match your local version
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]

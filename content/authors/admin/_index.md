@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Augusto Eduardo Lassen
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Augusto Eduardo Lassen
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Augusto E.
+last_name: Lassen
 
 # Status emoji
 status:
@@ -20,92 +20,76 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Postdoctoral researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: "Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova (OAPd)"
+    url: https://www.oapd.inaf.it/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:augusto.lassen@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/augustolassen/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/AugustoLassen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/augusto-lassen-3b560219b/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=Hfx9Bx0AAAAJ&hl=pt-BR&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0003-3575-8316
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Galaxy formation and evolution
+  - Physical processes on the ionized gas
+  - Impact of the environment on galaxy evolution
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Ph.D. Astrophysics
+    institution: Universidade Federal do Rio Grande do Sul (UFRGS, Brazil)
+    date_start: 2020-09-01
+    date_end: 2024-08-26
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Star-formation processes on metal-poor dwarf galaxies_. Supervised by [Prof. Dr. Rogerio Riffel](https://www.if.ufrgs.br/~riffel/) and [Ana Chies-Santos](http://lattes.cnpq.br/5208486347093366).
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      url: 'https://lume.ufrgs.br/handle/10183/280726'
+      icon: university
+      icon_pack: fas
+      new_window: true  # Opens in new tab
+  - area: M.Sc. Astrophysics
+    institution: Universidade Federal do Rio Grande do Sul (UFRGS, Brazil)
+    date_start: 2018-09-01
+    date_end: 2020-08-31
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Dissertation on _spatially resolved analysis of chemical and star-forming properties of a low-mass z=0.04 galaxy_. Supervised by [Prof. Dr. Rogerio Riffel](https://www.if.ufrgs.br/~riffel/) and [Ana Chies-Santos](http://lattes.cnpq.br/5208486347093366).
+    button:
+      text: 'Read dissertation'
+      url: 'https://lume.ufrgs.br/handle/10183/217484'
+      icon: university
+      icon_pack: fas
+      new_window: true  # Opens in new tab
+  - area: B.Sc. Astrophysics
+    institution: Universidade Federal do Rio Grande do Sul (UFRGS, Brazil)
+    date_start: 2014-02-27
+    date_end: 2018-08-01
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Postdoctoral researcher
+    company_name: INAF - Osservatorio Astronomico di Padova (OAPd)
+    company_url: 'https://www.oapd.inaf.it/'  # Add URL
+    company_logo: 'inaf-logo'  # Add if available
+    location: Padova, Italy
+    date_start: '2024-09-01'
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Part of the [GASP Team](https://web.oapd.inaf.it/gasp/)
+      Research focus on impact of environment on galaxy evolution. 
+      Collaborating with [Benedetta Vulcani](https://benedettavulcani.wixsite.com/thisisme/home).
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -183,4 +167,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I obtained my Ph.D. degree in astrophysics in 2024, at Universidade Federal do Rio Grande do Sul (UFRGS, BR), with a six-month split-site Ph.D. program at Stockholm University. Currently, I am a researcher at the Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Italy.
+
+My research interests lie in extragalactic astronomy, with a focus on galaxy formation and evolution, the physical and chemical properties of ionized gas, star formation in dwarf galaxies, and the influence of environment on galactic evolution.
