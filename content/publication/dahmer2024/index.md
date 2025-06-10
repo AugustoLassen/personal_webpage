@@ -17,12 +17,10 @@ doi: ''
 links:
 - name: PDF
   url: 'https://doi.org/10.1051/0004-6361/202449570'
-  icon_pack: fa
-  icon: fa-file
+  icon_pack: fas
+  icon: file-pdf
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2024A&A...690A..93D
-  icon_pack: fa
-  icon: fa-external-link
-- name: ADS
-  url: https://ui.adsabs.harvard.edu/abs/2024A&A...690A..93D
+  icon_pack: fas
+  icon: external-link-alt
 ---

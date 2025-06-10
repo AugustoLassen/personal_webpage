@@ -58,3 +58,11 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# Icon configuration
+icon:
+  pack:
+    ai: true  # Academicons
+    fas: true # Font Awesome Solid
+    fab: true # Font Awesome Brands
+    far: true # Font Awesome Regular
