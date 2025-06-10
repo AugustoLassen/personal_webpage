@@ -5,7 +5,7 @@ authors:
 - Ana L. Chies-Santos
 - Rogério Riffel
 - Jean M. Gomes
-- admin
+- "𝐀𝐮𝐠𝐮𝐬𝐭𝐨 𝐄. 𝐋𝐚𝐬𝐬𝐞𝐧"
 - João P. V. Benedetti
 - Rafael S. de Souza
 - Quanfeng Xu
@@ -16,8 +16,10 @@ doi: ''
 links:
 - name: PDF
   url: 'https://doi.org/10.1093/mnras/stad1641'
-  icon_pack: ai
-  icon: google-scholar
+  icon_pack: fa
+  icon: fa-file
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4680A
+  icon_pack: fa
+  icon: fa-external-link
 ---

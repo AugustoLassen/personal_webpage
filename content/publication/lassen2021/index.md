@@ -1,7 +1,7 @@
 ---
 title: "The metal-poor dwarf irregular galaxy candidate next to Mrk 1172"
 authors:
-- admin
+- "𝐀𝐮𝐠𝐮𝐬𝐭𝐨 𝐄. 𝐋𝐚𝐬𝐬𝐞𝐧"
 - Rogerio Riffel
 - Ana L. Chies-Santos
 - Evelyn Johnston
@@ -16,8 +16,10 @@ doi: ''
 links:
 - name: PDF
   url: 'https://doi.org/10.1093/mnras/stab1838'
-  icon_pack: ai
-  icon: google-scholar
+  icon_pack: fa
+  icon: fa-file
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2021MNRAS.506.3527L
+  icon_pack: fa
+  icon: fa-external-link
 ---

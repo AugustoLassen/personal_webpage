@@ -14,7 +14,7 @@ authors:
 - Tiger Yu-Yang Hsiao
 - Xinfeng Xu
 - Matteo Messa
-- admin
+- "𝐀𝐮𝐠𝐮𝐬𝐭𝐨 𝐄. 𝐋𝐚𝐬𝐬𝐞𝐧"
 - Erik Zackrisson
 - Gabriel Brammer
 - Dan Coe
@@ -36,8 +36,10 @@ doi: ''
 links:
 - name: PDF
   url: 'https://doi.org/10.1038/s41586-024-07703-7'
-  icon_pack: ai
-  icon: google-scholar
+  icon_pack: fa
+  icon: fa-file
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2024Natur.632..513A
+  icon_pack: fa
+  icon: fa-external-link
 ---

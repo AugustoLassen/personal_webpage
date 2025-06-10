@@ -4,7 +4,7 @@ authors:
 - Keerthana Jegatheesan
 - Evelyn J. Johnston
 - Boris Häußler
-- admin
+- "𝐀𝐮𝐠𝐮𝐬𝐭𝐨 𝐄. 𝐋𝐚𝐬𝐬𝐞𝐧"
 - Rogério Riffel
 - Ana L. Chies-Santos
 date: '2025-02-01'
@@ -14,8 +14,10 @@ doi: ''
 links:
 - name: PDF
   url: 'https://doi.org/10.1051/0004-6361/202452137'
-  icon_pack: ai
-  icon: google-scholar
+  icon_pack: fa
+  icon: fa-file
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2025A&A...694A.224J
+  icon_pack: fa
+  icon: fa-external-link
 ---
