@@ -15,8 +15,10 @@ publication_types: ['article-journal']
 publication: '*Astronomy & Astrophysics, 690*, A93'
 doi: ''
 links:
-- name: "📄 PDF"
+- name: PDF
   url: 'https://doi.org/10.1051/0004-6361/202449570'
-- name: "🔗 ADS"
-  url: 'https://ui.adsabs.harvard.edu/abs/2024A&A...690A..93D'
+  icon: document-text
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024A&A...690A..93D
+  icon: dumbell
 ---
