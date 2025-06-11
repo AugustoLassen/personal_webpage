@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Article-Journal | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/publication_types/article-journal/</link>
-      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <title>Article-Journal | Augusto Lassen</title>
+    <link>http://localhost:38181/personal_webpage/publication_types/article-journal/</link>
+      <atom:link href="http://localhost:38181/personal_webpage/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:38181/personal_webpage/media/icon_hu_645fa481986063ef.png</url>
       <title>Article-Journal</title>
-      <link>http://localhost:1313/publication_types/article-journal/</link>
+      <link>http://localhost:38181/personal_webpage/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>Dual-component stellar assembly histories in local elliptical galaxies via MUSE</title>
-      <link>http://localhost:1313/publication/jegatheesan2025/</link>
+      <link>http://localhost:38181/personal_webpage/publication/jegatheesan2025/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jegatheesan2025/</guid>
+      <guid>http://localhost:38181/personal_webpage/publication/jegatheesan2025/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Extragalactic globular cluster near-infrared spectroscopy: I. Integrated near-infrared spectra of Centaurus A/NGC 5128</title>
-      <link>http://localhost:1313/publication/dahmer2024/</link>
+      <link>http://localhost:38181/personal_webpage/publication/dahmer2024/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/dahmer2024/</guid>
+      <guid>http://localhost:38181/personal_webpage/publication/dahmer2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bound star clusters observed in a lensed galaxy 460 Myr after the Big Bang</title>
-      <link>http://localhost:1313/publication/adamo2024/</link>
+      <link>http://localhost:38181/personal_webpage/publication/adamo2024/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/adamo2024/</guid>
+      <guid>http://localhost:38181/personal_webpage/publication/adamo2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spatially resolved self-consistent spectral modelling of jellyfish galaxies from MUSE with FADO: trends with mass and stripping intensity</title>
-      <link>http://localhost:1313/publication/azevedo2023/</link>
+      <link>http://localhost:38181/personal_webpage/publication/azevedo2023/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/azevedo2023/</guid>
+      <guid>http://localhost:38181/personal_webpage/publication/azevedo2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The metal-poor dwarf irregular galaxy candidate next to Mrk 1172</title>
-      <link>http://localhost:1313/publication/lassen2021/</link>
+      <link>http://localhost:38181/personal_webpage/publication/lassen2021/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/lassen2021/</guid>
+      <guid>http://localhost:38181/personal_webpage/publication/lassen2021/</guid>
       <description></description>
     </item>
     
