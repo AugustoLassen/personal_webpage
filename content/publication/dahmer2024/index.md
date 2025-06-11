@@ -14,11 +14,9 @@ date: '2024-10-01'
 publication_types: ['article-journal']
 publication: '*Astronomy & Astrophysics, 690*, A93'
 doi: ''
-buttons:
-- name: PDF
+links:
+- name: "📄 PDF"
   url: 'https://doi.org/10.1051/0004-6361/202449570'
-  icon: document-text
-- name: ADS
+- name: "🔗 ADS"
   url: 'https://ui.adsabs.harvard.edu/abs/2024A&A...690A..93D'
-  icon: external-link
 ---
