@@ -2,32 +2,33 @@
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
 <div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  {{/* Title */}}
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}
-  </span>
-  ({{- $item.Date.Format "2006" -}}).
-  <span>{{ $item.Title }}</span>.
-  
-  {{/* Publication */}}
-  {{ if $item.Params.publication }}
-    {{ $item.Params.publication | markdownify }}.
-  {{ end }}
-
-  {{ if $item.Params.links }}
-    {{ range $item.Params.links }}
-      {{ if eq .name "PDF" }}
-        <a href="{{ .url }}" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i> PDF
-        </a>
-      {{ end }}
-      {{ if eq .name "ADS" }}
-        <a href="{{ .url }}" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i> ADS
-        </a>
-      {{ end }}
+  {{/* Citation text */}}
+  <div class="citation-text">
+    <span class="article-metadata li-cite-author">
+      {{ partial "page_metadata_authors" $item }}
+    </span>
+    ({{- $item.Date.Format "2006" -}}).
+    <span>{{ $item.Title }}</span>.
+    {{ if $item.Params.publication }}
+      {{ $item.Params.publication | markdownify }}.
     {{ end }}
+  </div>
+
+  {{/* Links with icons on new line */}}
+  {{ if $item.Params.links }}
+    <div class="pub-links" style="margin-top: 0.5rem; margin-left: 2rem;">
+      {{ range $item.Params.links }}
+        {{ if eq .name "PDF" }}
+          <a href="{{ .url }}" target="_blank" rel="noopener" style="margin-right: 1.5rem">
+            <i class="fa {{ .icon }}"></i> PDF
+          </a>
+        {{ end }}
+        {{ if eq .name "ADS" }}
+          <a href="{{ .url }}" target="_blank" rel="noopener">
+            <i class="fa {{ .icon }}"></i> ADS
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
   {{ end }}
 </div>

@@ -18,9 +18,9 @@ links:
 - name: PDF
   url: 'https://doi.org/10.1051/0004-6361/202449570'
   icon_pack: fas
-  icon: download
+  icon: fa-download
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2024A&A...690A..93D
   icon_pack: fas
-  icon: link
+  icon: fa-arrow-up-right-from-square
 ---

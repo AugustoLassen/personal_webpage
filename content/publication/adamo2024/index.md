@@ -36,10 +36,10 @@ doi: ''
 links:
 - name: PDF
   url: 'https://doi.org/10.1038/s41586-024-07703-7'
-  icon_pack: fa
-  icon: fa-file
+  icon_pack: fas
+  icon: fa-download
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2024Natur.632..513A
-  icon_pack: fa
-  icon: fa-external-link
+  icon_pack: fas
+  icon: fa-arrow-up-right-from-square
 ---

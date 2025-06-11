@@ -16,10 +16,10 @@ doi: ''
 links:
 - name: PDF
   url: 'https://doi.org/10.1093/mnras/stad1641'
-  icon_pack: fa
-  icon: fa-file
+  icon_pack: fas
+  icon: fa-download
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4680A
-  icon_pack: fa
-  icon: fa-external-link
+  icon_pack: fas
+  icon: fa-arrow-up-right-from-square
 ---
