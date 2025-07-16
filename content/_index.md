@@ -40,12 +40,12 @@ sections:
       columns: '1'
   - block: collection
     content:
-      title: Recent Publications
+      title: Selected Publications
       text: ""
       filters:
         folders:
           - publication
-        exclude_featured: false
+        featured_only: true
     design:
       view: citation
   - block: cta-card

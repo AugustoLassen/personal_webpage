@@ -1,10 +1,11 @@
 ---
 title: "The metal-poor dwarf irregular galaxy candidate next to Mrk 1172"
+featured: true
 authors:
 - "𝐀𝐮𝐠𝐮𝐬𝐭𝐨 𝐄. 𝐋𝐚𝐬𝐬𝐞𝐧"
 - Rogerio Riffel
 - Ana L. Chies-Santos
-- Evelyn Johnston
+- Evelyn J. Johnston
 - Boris Häußler
 - Gabriel M. Azevedo
 - Daniel Ruschel-Dutra

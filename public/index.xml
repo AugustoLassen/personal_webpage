@@ -34,6 +34,22 @@
     </item>
     
     <item>
+      <title>Investigating the clumpy star formation in an interacting dwarf irregular galaxy</title>
+      <link>http://localhost:1313/personal_webpage/publication/lassen2025/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal_webpage/publication/lassen2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The MUSE view of ram pressure stripped galaxies in clusters: the GASP sample</title>
+      <link>http://localhost:1313/personal_webpage/publication/poggianti2025/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal_webpage/publication/poggianti2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dual-component stellar assembly histories in local elliptical galaxies via MUSE</title>
       <link>http://localhost:1313/personal_webpage/publication/jegatheesan2025/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
@@ -302,7 +318,7 @@
 
 
 
-&lt;div id=&#34;chart-459261738&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-721386549&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -320,7 +336,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-459261738&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-721386549&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

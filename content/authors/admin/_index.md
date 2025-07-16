@@ -115,10 +115,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Sports
+      - name: Gaming
         description: ''
         percent: 80
-        icon: dumbbell
+        icon: puzzle-piece
       - name: Reading
         description: ''
         percent: 90

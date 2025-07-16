@@ -1,5 +1,6 @@
 ---
 title: "Extragalactic globular cluster near-infrared spectroscopy: I. Integrated near-infrared spectra of Centaurus A/NGC 5128"
+featured: false
 authors:
 - L. G. Dahmer-Hahn
 - Ana L. Chies-Santos

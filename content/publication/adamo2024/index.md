@@ -1,5 +1,6 @@
 ---
 title: "Bound star clusters observed in a lensed galaxy 460 Myr after the Big Bang"
+featured: true
 authors:
 - Angela Adamo
 - Larry D. Bradley
