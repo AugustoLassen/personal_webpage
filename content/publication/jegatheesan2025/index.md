@@ -1,6 +1,6 @@
 ---
 title: "Dual-component stellar assembly histories in local elliptical galaxies via MUSE"
-featured: true
+featured: false
 authors:
 - Keerthana Jegatheesan
 - Evelyn J. Johnston

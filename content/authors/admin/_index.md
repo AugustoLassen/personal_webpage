@@ -49,7 +49,7 @@ profiles:
 
 interests:
   - Galaxy formation and evolution
-  - Physical processes on the ionized gas
+  - Ionized gas physics
   - Impact of the environment on galaxy evolution
 
 education:
@@ -148,7 +148,8 @@ awards: []
 ---
 
 ## About Me
+I obtained my Ph.D. in astrophysics in 2024 at the Universidade Federal do Rio Grande do Sul (UFRGS, Brazil), including a six-month split-site period at Stockholm University. 
 
-I obtained my Ph.D. degree in astrophysics in 2024, at Universidade Federal do Rio Grande do Sul (UFRGS, BR), with a six-month split-site Ph.D. program at Stockholm University. Currently, I am a researcher at the Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Italy.
+Currently, I am a postdoctoral researcher working at the Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Italy. 
 
-My research interests lie in extragalactic astronomy, with a focus on galaxy formation and evolution, the physical and chemical properties of ionized gas, star formation in dwarf galaxies, and the influence of environment on galactic evolution.
+My research focuses on extragalactic astronomy, with particular interest in galaxy formation and evolution, the physical and chemical properties and dynamics of ionized gas, and the role of dense environments in driving galaxy evolution and shaping their morphologies.

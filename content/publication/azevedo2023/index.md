@@ -1,6 +1,6 @@
 ---
 title: "Spatially resolved self-consistent spectral modelling of jellyfish galaxies from MUSE with FADO: trends with mass and stripping intensity"
-featured: true
+featured: false
 authors:
 - Gabriel M. Azevedo
 - Ana L. Chies-Santos

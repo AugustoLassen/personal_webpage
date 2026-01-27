@@ -1,6 +1,6 @@
 ---
 title: "The MUSE view of ram pressure stripped galaxies in clusters: the GASP sample"
-featured: false
+featured: true
 authors:
 - Bianca M. Poggianti
 - Benedetta Vulcani

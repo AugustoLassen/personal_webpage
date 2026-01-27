@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Obtained a Bachelor of Science (B.Sc.) degree in Astrophysics from the Universidade Federal do Rio Grande do Sul (UFRGS) in 2018, followed by an M.Sc. (UFRGS, 2020) and a Ph.D. (UFRGS, 2024). Participated in the Print-CAPES program as a guest researcher at Stockholm University from Nov/23 to Apr/24. Currently works as a postdoctoral researcher at the Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Italy. Research is focused on the field of extragalactic astronomy, including galaxy formation and evolution, physical and chemical processes in ionized gas, star formation in dwarf galaxies, and the effects of the environment on galaxy evolution.
+        My research focuses on extragalactic astronomy, specifically in galaxy formation and evolution, physical conditions and dynamics of the ionized gas, chemical evolution and star formation processes in dwarf galaxies, and the role of dense environments on galaxy evolution.
     design:
       columns: '1'
   - block: collection
