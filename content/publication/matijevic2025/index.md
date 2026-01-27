@@ -16,7 +16,7 @@ authors:
 - R. Bašić
 date: '2025-12-18'
 publication_types: ['article-journal']
-publication: '*Astronomy & Astrophysics, in press.'
+publication: '*Astronomy & Astrophysics*, in press'
 doi: ''
 links:
 - name: PDF

@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Augusto Lassen</title>
+    <title>Publications | Augusto Eduardo Lassen – Astrophysicist | INAF Padova | Astronomy</title>
     <link>http://localhost:1313/personal_webpage/publication/</link>
       <atom:link href="http://localhost:1313/personal_webpage/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/personal_webpage/media/icon_hu_645fa481986063ef.png</url>
       <title>Publications</title>
       <link>http://localhost:1313/personal_webpage/publication/</link>
     </image>
+    
+    <item>
+      <title>Spatially resolved PAH_3.3 emission and stellar ages in ram pressure stripped clumps at z=0.3</title>
+      <link>http://localhost:1313/personal_webpage/publication/benotto2025/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal_webpage/publication/benotto2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The competing influences of ram pressure and tidal interaction in NGC 2276</title>
+      <link>http://localhost:1313/personal_webpage/publication/matijevic2025/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal_webpage/publication/matijevic2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distinguishing ram pressure from gravitational interactions: Applying the size-shape difference method to real galaxies</title>
+      <link>http://localhost:1313/personal_webpage/publication/lassen2025b/</link>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal_webpage/publication/lassen2025b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The interplay between Active Galactic Nuclei and Ram-pressure stripping: spatially resolved gas-phase abundances of stripped and undisturbed galaxies</title>
+      <link>http://localhost:1313/personal_webpage/publication/peluso2025/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal_webpage/publication/peluso2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Investigating the clumpy star formation in an interacting dwarf irregular galaxy</title>
