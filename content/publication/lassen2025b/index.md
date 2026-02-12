@@ -27,7 +27,7 @@ links:
   icon_pack: fas
   icon: fa-download
 - name: ADS
-  url: https://ui.adsabs.harvard.edu/abs/2025arXiv251202923L
+  url: https://ui.adsabs.harvard.edu/abs/2026A%26A...706A..85L
   icon_pack: fas
   icon: fa-arrow-up-right-from-square
 ---

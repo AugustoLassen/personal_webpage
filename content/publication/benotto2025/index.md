@@ -15,7 +15,7 @@ authors:
 - Alessia Moretti
 date: '2025-12-22'
 publication_types: ['article-journal']
-publication: '*Astronomy & Astrophysics*, in press'
+publication: '*Astronomy & Astrophysics, 706*, A300'
 doi: ''
 links:
 - name: PDF
