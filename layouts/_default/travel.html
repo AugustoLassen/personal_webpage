@@ -1,0 +1,219 @@
+{{ define "main" }}
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    
+    .travel-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    .travel-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .travel-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+    
+    .travel-header p {
+      font-size: 1.1rem;
+      color: #666;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .map-section {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      margin-bottom: 2rem;
+    }
+    
+    #map {
+      height: 600px;
+      border-radius: 8px;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    }
+    
+    .stats-section {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    
+    .stats-title {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      color: #2c3e50;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    
+    .stat-card {
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .stat-card-1 {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    
+    .stat-card-2 {
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+    
+    .stat-card-3 {
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    
+    .stat-label {
+      font-size: 0.95rem;
+      opacity: 0.95;
+    }
+    
+    .leaflet-popup-content {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    }
+    
+    .leaflet-popup-content strong {
+      color: #2E7D32;
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 0.3rem;
+    }
+    
+    .leaflet-popup-content small {
+      color: #666;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .leaflet-popup-content p {
+      margin: 0.5rem 0 0 0;
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="travel-container">
+    <div class="travel-header">
+      <h1>🌍 {{ .Title }}</h1>
+      <p>The interactive map below shows the places that I've had the privilege to visit. Clicking on the markers you can learn more about each destination!</p>
+    </div>
+    
+    <div class="map-section">
+      <div id="map"></div>
+    </div>
+    
+    <div class="stats-section">
+      <div class="stats-title">✨ Travel Statistics</div>
+      <div class="stats-grid">
+        <div class="stat-card stat-card-1">
+          <div class="stat-number" id="places-count">0</div>
+          <div class="stat-label">Places Visited</div>
+        </div>
+        <div class="stat-card stat-card-2">
+          <div class="stat-number" id="continents-count">0</div>
+          <div class="stat-label">Continents Explored</div>
+        </div>
+        <div class="stat-card stat-card-3">
+          <div class="stat-number" id="last-visit">-</div>
+          <div class="stat-label">Last Visit Year</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script>
+    // Initialize the map
+    const map = L.map('map').setView([20, 0], 3);
+    
+    // Add tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
+    }).addTo(map);
+    
+    // Fetch and add markers from data
+    fetch('{{ .Site.BaseURL }}data/places.json')
+      .then(response => response.json())
+      .then(data => {
+        // Update statistics
+        document.getElementById('places-count').textContent = data.places.length;
+        
+        const lastVisitDate = new Date(Math.max(...data.places.map(p => new Date(p.date))));
+        document.getElementById('last-visit').textContent = lastVisitDate.getFullYear();
+        
+        // Add markers to map
+        data.places.forEach(place => {
+          const marker = L.circleMarker([place.latitude, place.longitude], {
+            radius: 8,
+            fillColor: '#4CAF50',
+            color: '#2E7D32',
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.8
+          }).addTo(map);
+          
+          // Add popup with place information
+          const dateStr = new Date(place.date).toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+          });
+          
+          const popupContent = `
+            <strong>${place.name}</strong>
+            <small>📅 ${dateStr}</small>
+            ${place.description ? '<p>' + place.description + '</p>' : ''}
+          `;
+          
+          marker.bindPopup(popupContent);
+        });
+      })
+      .catch(error => console.error('Error loading places:', error));
+  </script>
+</body>
+</html>
+{{ end }}

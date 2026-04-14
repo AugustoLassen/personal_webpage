@@ -1,0 +1,124 @@
+{
+  "places": [
+    {
+      "name": "New York, USA",
+      "latitude": 40.712776,
+      "longitude": -74.005974,
+      "date": "2024-02-10",
+      "description": "Absolutely unique experience. Went there on bussiness trip, and visited Flatiron institute."
+    },
+    {
+      "name": "São Paulo, Brasil",
+      "latitude": -23.5506507,
+      "longitude": -46.6333824,
+      "date": "2019-08-01",
+      "description": "Been there twice. Largest city of Brazil and of South America."
+    },
+    {
+      "name": "Paris, France",
+      "latitude": 48.856613,
+      "longitude": 2.352222,
+      "date": "2026-01-01",
+      "description": "Beautiful city. Visited Eiffel tower and the Louvre."
+    },
+    {
+      "name": "Brussels, Belgium",
+      "latitude": 50.850346,
+      "longitude": 4.351721,
+      "date": "2025-12-25",
+      "description": "Spent my Christmas there. It was super cold, but the city is wonderful."
+    },
+    {
+      "name": "Rio de Janeiro, Brasil",
+      "latitude": -22.9110137,
+      "longitude": -43.2093727,
+      "date": "2025-08-09",
+      "description": "Visited the Christ. Amazing city, certainly will come back."
+    },
+    {
+      "name": "Naples, Italy",
+      "latitude": 40.8358846,
+      "longitude": 14.2487679,
+      "date": "2026-04-05",
+      "description": "Spent my Easter there. Visited Capri and Pompei. Best pizza in the world and the heart of Italy."
+    },
+    {
+      "name": "Turin, Italy",
+      "latitude": 45.0677551,
+      "longitude": 7.6824892,
+      "date": "2026-03-08",
+      "description": "Travelled there for my birthday. Liked a lot that city, had a great time."
+    },
+    {
+      "name": "Rome, Italy",
+      "latitude": 41.8933203,
+      "longitude": 12.4829321,
+      "date": "2025-10-01",
+      "description": "Been there multiple times. For those who love travelling, it is a must."
+    },
+    {
+      "name": "Stockholm, Sweden",
+      "latitude": 59.3251172,
+      "longitude": 18.0710935,
+      "date": "2024-04-01",
+      "description": "Lived there for 6 months. Has a special place in my heart. Very cold place, but still the best city mobility I have ever seen."
+    },
+    {
+      "name": "Copenhagen, Denmark",
+      "latitude": 59.3251172,
+      "longitude": 18.0710935,
+      "date": "2024-02-01",
+      "description": "A city for those who love riding bikes. Visited the hippie neighborhood, that was super cool."
+    },
+    {
+      "name": "Porto Alegre, Brasil",
+      "latitude": -30.0324999,
+      "longitude": -51.2303767,
+      "date": "2024-08-26",
+      "description": "Lived there for 10 years, and it's where I obtained my PhD. Occupies a special place in my heart."
+    },
+    {
+      "name": "Munich, Germany",
+      "latitude": 48.1371079,
+      "longitude": 11.5753822,
+      "date": "2025-10-27",
+      "description": "First time in Germany. Visited the castle of Cinderella. Quite nice city."
+    },
+    {
+      "name": "Lisbon, Portugal",
+      "latitude": 38.7077507,
+      "longitude": -9.1365919,
+      "date": "2024-05-05",
+      "description": "Stayed there for only a couple of days in a connection. Would like to come back someday."
+    },
+    {
+      "name": "Tenerife, Spain",
+      "latitude": 28.2935785,
+      "longitude": -16.6214471,
+      "date": "2023-04-01",
+      "description": "Visited IAC. We took a day to go and the El Teide volcano. Amazing place."
+    },
+    {
+      "name": "Ghent, Belgium",
+      "latitude": 51.0538286,
+      "longitude": 3.7250121,
+      "date": "2025-12-22",
+      "description": "Small city but very beautiful. Best Christmas market we've seen in Belgium."
+    },
+    {
+      "name": "Antwerp, Belgium",
+      "latitude": 51.2211097,
+      "longitude": 4.3997081,
+      "date": "2025-12-30",
+      "description": "City of the diamonds. We stayed at a very good hotel there."
+    },
+    {
+      "name": "Lajeado, Brasil",
+      "latitude": -29.4496196,
+      "longitude": -51.9891245,
+      "date": "1996-03-08",
+      "description": "My hometown. Nothing else to say XD"
+    }
+  ]
+} 
+
