@@ -1,6 +1,6 @@
 ---
 title: "The metal-poor dwarf irregular galaxy candidate next to Mrk 1172"
-featured: true
+featured: false
 authors:
 - "𝐀𝐮𝐠𝐮𝐬𝐭𝐨 𝐄. 𝐋𝐚𝐬𝐬𝐞𝐧"
 - Rogerio Riffel
