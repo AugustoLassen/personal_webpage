@@ -20,15 +20,15 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Postdoctoral researcher
+role: Postdoctoral Fellow
 
 # Avatar (optional) - filenames without .jpg/.png/.jpeg/.svg end with .jpg
 avatar: avatar.jpg
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: "Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova (OAPd)"
-    url: https://www.oapd.inaf.it/
+  - name: "European Southern Observatory (ESO)"
+    url: https://www.eso.org/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -82,16 +82,23 @@ education:
     date_start: 2014-02-27
     date_end: 2018-08-01
 work:
+  - position: Postdoctoral Fellow
+    company_name: European Southern Observatory (ESO)
+    company_url: 'https://www.eso.org/'
+    location: Garching, Germany
+    date_start: '2026-10-01'
+    date_end: ''
+    summary: At ESO I work closely with the detector group, running simulations with [Pyxel](https://esa.gitlab.io/pyxel/page/) to characterize the [WST](https://wstelescope.eu/) CMOS detector.
   - position: Postdoctoral researcher
     company_name: INAF - Osservatorio Astronomico di Padova (OAPd)
     company_url: 'https://www.oapd.inaf.it/'  # Add URL
-    company_logo: 'inaf-logo'  # Add if available
+    #company_logo: 'inaf-logo'  # Add if available
     location: Padova, Italy
     date_start: '2024-09-01'
-    date_end: ''
+    date_end: '2026-09-30'
     summary: |
-      Part of the [GASP Team](https://web.oapd.inaf.it/gasp/)
-      Research focus on impact of environment on galaxy evolution. 
+      Part of the [GASP Team](https://web.oapd.inaf.it/gasp/).
+      Research focus on the impact of environment on galaxy evolution.
       Collaborating with [Benedetta Vulcani](https://benedettavulcani.wixsite.com/thisisme/home).
 
 # Skills
@@ -106,7 +113,7 @@ skills:
       - name: R
         description: ''
         percent: 80
-        icon: r-project
+        icon: brands/r-project
       - name: Data Science
         description: ''
         percent: 95
@@ -134,9 +141,9 @@ languages:
   - name: English
     percent: 90
   - name: Italian
-    percent: 30
+    percent: 40
   - name: Spanish
-    percent: 25
+    percent: 30
 
 # Awards section is commented out
 awards: []
@@ -148,8 +155,8 @@ awards: []
 ---
 
 ## About Me
-I obtained my Ph.D. in astrophysics in 2024 at the Universidade Federal do Rio Grande do Sul (UFRGS, Brazil), including a six-month split-site period at Stockholm University. 
+I obtained my B.Sc. (2018), M.Sc. (2020), and Ph.D. (2024) in astrophysics at the Universidade Federal do Rio Grande do Sul (UFRGS, Brazil). During my Ph.D., I carried out a doctoral research stay at Stockholm University (Sweden) through the PRINT-CAPES program.
 
-Currently, I am a postdoctoral researcher working at the Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Italy. 
+From 2024 to 2026, I was a postdoctoral researcher at the Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Italy. Currently, I am a Fellow at the European Southern Observatory (ESO) in Garching, Germany.
 
-My research focuses on extragalactic astronomy, with particular interest in galaxy formation and evolution, the physical and chemical properties and dynamics of ionized gas, and the role of dense environments in driving galaxy evolution and shaping their morphologies.
+My research focuses on extragalactic astronomy, particularly galaxy formation and evolution. My interests include the physical, chemical, and kinematic properties of ionized gas, as well as the impact of dense environments on galaxy evolution and morphological transformation.
