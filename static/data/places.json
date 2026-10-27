@@ -8,6 +8,21 @@
       "description": "My hometown."
     },
     {
+      "name": "Porto Alegre, Brazil",
+      "latitude": -30.0325,
+      "longitude": -51.2304,
+      "date": "2014-02-26",
+      "description": "Lived there for 10 years, and it's where I obtained my PhD. Occupies a special place in my heart."
+    },    
+    {
+      "name": "Santiago, Chile",
+      "latitude": -33.4375,
+      "longitude": -70.6500,
+      "date": "2019-02-01",
+      "description": "My first business trip and also first time I visited a different country."
+    },
+
+    {
       "name": "São Paulo, Brazil",
       "latitude": -23.5507,
       "longitude": -46.6334,
@@ -50,12 +65,12 @@
       "description": "Stayed there for only a couple of days in a connection. Would like to come back someday."
     },
     {
-      "name": "Porto Alegre, Brazil",
-      "latitude": -30.0325,
-      "longitude": -51.2304,
-      "date": "2024-08-26",
-      "description": "Lived there for 10 years, and it's where I obtained my PhD. Occupies a special place in my heart."
-    },
+      "name": "Milan, Italy",
+      "latitude": 45.4643,
+      "longitude": 9.1895,
+      "date": "2025-01-15",
+      "description": ""
+    },    
     {
       "name": "Rio de Janeiro, Brazil",
       "latitude": -22.9110,
@@ -106,6 +121,13 @@
       "description": "Beautiful city. Visited the Eiffel Tower and the Louvre."
     },
     {
+      "name": "Venice, Italy",
+      "latitude": 45.4371,
+      "longitude": 12.3327,
+      "date": "2026-02-15",
+      "description": ""
+    },    
+    {
       "name": "Turin, Italy",
       "latitude": 45.0678,
       "longitude": 7.6825,
@@ -127,11 +149,32 @@
       "description": "Spent my Easter there. Visited Capri and Pompeii. Best pizza in the world and the heart of Italy."
     },
     {
+      "name": "Florianópolis, Brazil",
+      "latitude": -27.5973,
+      "longitude": -48.5496,
+      "date": "2026-06-01",
+      "description": ""
+    },    
+    {
       "name": "Barcelona, Spain",
       "latitude": 41.3888,
       "longitude": 2.1590,
       "date": "2026-08-01",
       "description": "Absolutely amazing city. Full of architecture and art."
-    }
+    },
+    {
+      "name": "Pisa, Italy",
+      "latitude": 43.7085,
+      "longitude": 10.4036,
+      "date": "2026-07-15",
+      "description": "They have a funny tower there"
+    },    
+    {
+      "name": "Lugano, Switzerland",
+      "latitude": 46.0101,
+      "longitude": 8.9600,
+      "date": "2026-08-28",
+      "description": ""
+    }    
   ]
 }
