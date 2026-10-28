@@ -37,25 +37,25 @@
       "description": "Visited IAC. We took a day to visit the El Teide volcano. Amazing place."
     },
     {
-      "name": "Copenhagen, Denmark",
-      "latitude": 55.6761,
-      "longitude": 12.5683,
-      "date": "2024-02-01",
-      "description": "A city for those who love riding bikes. Visited the hippie neighborhood, that was super cool."
-    },
-    {
-      "name": "New York, USA",
-      "latitude": 40.7128,
-      "longitude": -74.0060,
-      "date": "2024-02-10",
-      "description": "Absolutely unique experience. Went there on a business trip, and visited the Flatiron Institute."
+      "name": "Brasília, Brazil",
+      "latitude": -15.7934,
+      "longitude": -47.8823,
+      "date": "2023-08-15",
+      "description": ""
     },
     {
       "name": "Stockholm, Sweden",
       "latitude": 59.3251,
       "longitude": 18.0711,
-      "date": "2024-04-01",
+      "date": "2023-11-07",
       "description": "Lived there for 6 months. Has a special place in my heart. Very cold place, but still the best city mobility I have ever seen."
+    },    
+    {
+      "name": "Copenhagen, Denmark",
+      "latitude": 55.6761,
+      "longitude": 12.5683,
+      "date": "2024-02-01",
+      "description": "A city for those who love riding bikes. Visited the hippie neighborhood, that was super cool."
     },
     {
       "name": "Lisbon, Portugal",
@@ -70,7 +70,21 @@
       "longitude": 9.1895,
       "date": "2025-01-15",
       "description": ""
-    },    
+    },
+    {
+      "name": "Florence, Italy",
+      "latitude": 43.7793,
+      "longitude": 11.2463,
+      "date": "2025-02-15",
+      "description": ""
+    },
+    {
+      "name": "New York, USA",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "date": "2025-02-10",
+      "description": "Absolutely unique experience. Went there on a business trip, and visited the Flatiron Institute."
+    },
     {
       "name": "Rio de Janeiro, Brazil",
       "latitude": -22.9110,
@@ -154,7 +168,14 @@
       "longitude": -48.5496,
       "date": "2026-06-01",
       "description": ""
-    },    
+    },
+    {
+      "name": "Bologna, Italy",
+      "latitude": 44.4939,
+      "longitude": 11.3428,
+      "date": "2026-06-07",
+      "description": ""
+    },
     {
       "name": "Barcelona, Spain",
       "latitude": 41.3888,
